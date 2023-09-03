@@ -1,10 +1,10 @@
 # Operators
 
-![Alt text](image.png)
+![Alt text](../Images/image-18.png)
 
 We use Operators alongwith variables and constants to create expressions and with that expressions we can create logic and algorithms.
 
-![Alt text](image-1.png)
+![Alt text](../Images/image-11.png)
 
 ## Arithmetic
 
@@ -113,33 +113,34 @@ Truthy or Falsy
 
 Anything that is not Falsy is Truthy
 
-![Alt text](image-2.png)
+![Alt text](../Images/image-12.png)
 
 ```
 Js
 
-false || 1 || 2 will return 1 
+false || 1 || 2 will return 1
 //because as long as the operands is Truthy the execution will stop. This is called short-circuiting.
 
 ```
 
-![Alt text](image-3.png)
+![Alt text](../Images/image-13.png)
 
 ## Bitwise Operators
 
-![Alt text](image-4.png)
+![Alt text](../Images/image-14.png)
 
 console.log(1 | 2); single vertical lines means Bitwise logical OR
 console.log(1 & 2); single vertical lines means Bitwise logical AND
 
 Bitwise can be used in Access Control Sytem
-![Alt text](image-5.png)
+![Alt text](../Images/image-15.png)
 
-![Alt text](image-6.png)
+![Alt text](../Images/image-16.png)
 Bitwise OR to add permission, Bitwise AND to check weather the permission are given.
 
 ## Operators Precedence
-![Alt text](image-7.png)
+
+![Alt text](../Images/image-17.png)
 
 ## Exercise - Swapping Variables
 
