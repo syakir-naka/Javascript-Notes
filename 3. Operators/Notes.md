@@ -69,9 +69,14 @@ console.log(x >= 0);
 console.log(x < 0);
 console.log(x <= 0);
 
-// Equality operators
-console.log(x == 1); // true can be same value different type (Loose equality operator)
-console.log(x === 1); // true must be same value and same type (Strict Equality operator)
+// All of this example below are equality operators
+
+(Loose equality operator)
+console.log(x == 1); // true can be same value different type 
+
+(Strict Equality operator)
+console.log(x === 1); // true must be same value and same type 
+
 console.log(x !== 1); //This means if x is not equal to 1
 ```
 
@@ -86,7 +91,17 @@ Js
 
 let points = 110;
 let type = points>100 ? 'gold' : 'silver';
-// first we start with a condition, add question mark then true to left or false on the right side.
+
+// first we start with a condition,
+let type = points>100
+
+add question mark 
+let type = points>100 ?
+
+then true to the left or false on the right side.
+'gold' : 'silver'
+
+Then print on the console
 console.log(type);
 ```
 
@@ -129,10 +144,16 @@ false || 1 || 2 will return 1
 
 ![Alt text](../Images/image-14.png)
 
-console.log(1 | 2); single vertical lines means Bitwise logical OR
-console.log(1 & 2); single vertical lines means Bitwise logical AND
+console.log(1 | 2); 
+* single vertical lines means Bitwise logical OR
 
-Bitwise can be used in Access Control Sytem
+
+console.log(1 & 2); 
+* single vertical lines means Bitwise logical AND
+
+
+**Bitwise can be used in Access Control Sytem**
+
 ![Alt text](../Images/image-15.png)
 
 ![Alt text](../Images/image-16.png)

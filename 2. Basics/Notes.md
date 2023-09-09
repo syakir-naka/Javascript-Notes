@@ -66,8 +66,36 @@ let firstName = undefined;
 let selectedColor = null;
 // Explicitly clear the value of the variable. Let say user choose a color and
 // it will be the selectedColor but if user didnt select the choice would be none.
-
 ```
+
+**ChatGPT: undefined vs null**
+
+In programming, "null" and "undefined" are two distinct concepts used to represent the absence or lack of a value, but they are typically used in different contexts and have different meanings in various programming languages. Here's the difference between them:
+
+**1. Undefined:**
+   - **Context:** Undefined usually represents a variable or identifier that has been declared but has not been assigned a value.
+   - **Origin:** It typically occurs when you declare a variable without initializing it, or when you try to access an object property that does not exist.
+   - **Type:** In many programming languages, "undefined" is a special value or a type.
+   - **Example (JavaScript):** In JavaScript, if you declare a variable without assigning a value, it will be undefined.
+
+   ```javascript
+   let x;
+   console.log(x); // Output: undefined
+   ```
+
+**2. Null:**
+   - **Context:** Null represents the intentional absence of any object value or a variable that has been explicitly set to "null" to indicate that it has no meaningful value.
+   - **Origin:** You set a variable to null when you want to signify that it doesn't point to any valid object or data.
+   - **Type:** Null is a specific value that indicates the absence of an object.
+   - **Example (JavaScript):** You can explicitly set a variable to null in JavaScript.
+
+   ```javascript
+   let y = null;
+   console.log(y); // Output: null
+   ```
+
+In summary, "undefined" typically occurs when you try to access something that hasn't been defined or initialized, whereas "null" is used when you want to explicitly indicate that a variable or object reference has no value or points to nothing. They are both used to handle situations where a variable or value lacks meaningful data, but they are used in slightly different contexts and for different purposes in programming.
+
 
 ## Dynamic Typing
 
@@ -150,7 +178,13 @@ console.log(selectedColors);
 
 ![Alt text](../Images/image-8.png)
 
-Arrays can be accessed by its index. Length of array can be increase or decrease.Type also dynamic and can be changed.So in arrays other programming language array must contains the same type,but in Js can mix type.
+Arrays can be accessed by its index.
+```
+0: "red"
+1: "blue"
+```
+
+Length of array can be increase or decrease. Type also dynamic and can be changed.So in arrays other programming language array must contains the same type,but in Js can mix type.
 
 ```
 Js
@@ -166,7 +200,7 @@ Technically an array is an object.
 
 ## Functions
 
-A set of statements the perform a task or calculate a value.
+A set of statements that perform a task or calculate a value.
 
 ```
 Js
@@ -183,7 +217,7 @@ greet('Pokreh', 'Naka')
 ```
 
 - A function can have inputs and that determines how the function behaves.
-- Add a variable in the parantheses (parameter) that only meaningful inside that function
+- Add a variable in the parenthesis (parameter) that only meaningful inside that function
 - A function can have multiple parameter by separating with commas
 
 ![Alt text](../Images/image-10.png)
@@ -193,12 +227,12 @@ greet('Pokreh', 'Naka')
 ```
 Js
 
-// Performing a task
+// 1. To perform a task
 function greet (name, lastName) {
     console.log('Hello ' + name + ' ' + lastName);
 }
 
-// Calculating and return a value
+// To calculate and return a value
 function square(number) {
     return number * number;
 }

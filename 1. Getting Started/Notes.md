@@ -1,5 +1,5 @@
 ## What is Javascript
-Used by Netflix,wallmart,paypal
+Used by Netflix,Wallmart,Paypal
 
 ## What can we do with it?
 1. Web/Mobile Apps
@@ -7,7 +7,7 @@ Used by Netflix,wallmart,paypal
 3. Command-line tools
 4. Games
 
-## Wheere does Js run?
+## Where does Js run?
 Initially run in browser only.Browser have Js Engine:
 1. Firefox - Spider Monkey
 2. Google Chrome - V8
