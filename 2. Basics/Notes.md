@@ -4,7 +4,7 @@
 
 We use varible to store data temporarily in computer memory.
 
-![Alt text](../Images/image.png)
+![Alt text](../Images/image-0.png)
 
 We store them and give them a name.
 
