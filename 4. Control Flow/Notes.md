@@ -98,7 +98,7 @@ else
 ```
 
 ## For Loops
-![Alt text](image.png)
+![Alt text](../Images/image-19.png)
 
 Sometimes we need to repeat an action a number of time.Let say display "Hello World" 5 times.
 
@@ -170,7 +170,7 @@ Happened when we miss the incrementExpression
 To iterate over the properties of an object
 For loops,while loops, do-while loops used for repeating an action a number of time.
 
-We use for...in and for...of to iterate over the propresties of an object or elements in an array.
+We use for...in and for...of to iterate over the properties of an object or elements in an array.
 
 ```
 // for -in
