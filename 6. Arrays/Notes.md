@@ -4,7 +4,7 @@
 
 When we assign to a const, we cannot reassign to something else.
 
-![Alt text](image-42.png)
+![Alt text](../Images/image-42.png)
 
 ## Finding Elements (Primitives)
 index -1 is false
